@@ -25,7 +25,8 @@
         MLock: Lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LWIN &kp L>;
+            bindings = <&macro_press>, <&kp LWIN &kp L>;
+
             label = "LOCK";
         };
     };
