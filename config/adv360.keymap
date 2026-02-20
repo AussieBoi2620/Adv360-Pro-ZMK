@@ -63,11 +63,11 @@
 
         Navigation {
             bindings = <
-&trans  &trans             &trans            &trans             &trans            &trans          &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans             &mkp RCLK         &mkp MCLK          &mkp LCLK         &msc SCRL_UP    &trans                                      &trans  &kp PAGE_UP     &kp HOME        &trans        &trans           &trans  &trans
-&trans  &mmv MOVE_X(400)   &mmv MOVE_Y(400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &trans                          &trans      &trans                  &kp PAGE_DOWN   &kp END         &trans        &trans           &trans  &trans
-&trans  &trans             &trans            &trans             &trans                            &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
+&trans  &trans             &trans             &trans            &trans            &trans          &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans             &mkp RCLK          &mkp MCLK         &mkp LCLK         &msc SCRL_UP    &trans                                      &trans  &kp PAGE_UP     &kp HOME        &trans        &trans           &trans  &trans
+&trans  &mmv MOVE_X(600)   &mmv MOVE_Y(-600)  &mmv MOVE_Y(600)  &mmv MOVE_X(600)  &msc SCRL_DOWN  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_Y(100)  &mmv MOVE_X(100)  &trans                          &trans      &trans                  &kp PAGE_DOWN   &kp END         &trans        &trans           &trans  &trans
+&trans  &trans             &trans             &trans            &trans                            &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
             >;
         };
 
