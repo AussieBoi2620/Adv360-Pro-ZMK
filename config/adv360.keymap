@@ -75,7 +75,7 @@
             bindings = <
 &trans  &trans     &trans     &trans     &trans  &trans     &trans                                              &trans  &trans     &trans     &trans     &trans               &trans  &trans
 &trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &trans  &kp LG(T)  &trans                                              &trans  &trans     &trans     &trans     &trans               &trans  &trans
-&trans  &kp LG(A)  &trans     &trans     &trans  &trans     &trans  &trans          &trans      &trans  &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(RIGHT_ARROW)  &trans  &trans
+&trans  &trans     &trans     &kp LG(D)  &trans  &trans     &trans  &trans          &trans      &trans  &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(RIGHT_ARROW)  &trans  &trans
 &trans  &trans     &trans     &trans     &trans  &trans                             &trans      &trans                  &trans     &trans     &trans     &trans               &trans  &trans
 &trans  &trans     &trans     &trans     &trans             &trans  &kp LEFT_SHIFT  &trans      &trans  &trans  &trans             &trans     &trans     &trans               &trans  &trans
             >;
