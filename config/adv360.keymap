@@ -27,9 +27,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LWIN &kp L>,
+                <&kp LWIN &kp LEFT_SHIFT &kp Z>,
                 <&macro_release>,
-                <&kp LEFT_WIN &kp L>;
+                <&kp LEFT_WIN &kp LEFT_SHIFT &kp Z>;
 
             label = "LOCK";
         };
@@ -41,11 +41,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL   &kp N1     &kp N2       &kp N3       &kp N4       &kp N5  &tog 2                                                                &mo 4          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB     &kp Q      &kp W        &kp E        &kp R        &kp T   &tog 0                                                                &none          &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC     &kp A      &kp S        &kp D        &kp F        &kp G   &MLock     &none         &none             &none      &none           &none          &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHIFT  &kp Z      &hm LC(X) X  &hm LC(C) C  &hm LC(V) V  &kp B                            &kp LEFT_ALT      &kp LWIN                                  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
-&mo 3       &kp GRAVE  &none        &none        &none                &kp SPACE  &lt 2 DELETE  &kp LCTRL         &kp RCTRL  &mt LGUI ENTER  &kp BACKSPACE          &none   &none      &kp LBKT  &kp RBKT  &mo 3
+&kp EQUAL   &kp N1     &kp N2       &kp N3       &kp N4       &kp N5  &tog 1                                                                      &mo 4          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB     &kp Q      &kp W        &kp E        &kp R        &kp T   &none                                                                       &none          &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC     &kp A      &kp S        &kp D        &kp F        &kp G   &MLock     &none         &none             &none      &none                 &none          &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHIFT  &kp Z      &hm LC(X) X  &hm LC(C) C  &hm LC(V) V  &kp B                            &kp LEFT_ALT      &kp LWIN                                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
+&mo 3       &kp GRAVE  &none        &none        &none                &kp SPACE  &lt 2 DELETE  &kp LCTRL         &kp RCTRL  &mt LEFT_SHIFT ENTER  &kp BACKSPACE          &none   &none      &kp LBKT  &kp RBKT  &mo 3
             >;
         };
 
